@@ -6,11 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="IoC_XML" />
+        <module name="spring-demo-annotations" />
+      </profile>
+      <profile name="Annotation profile for IoC_XML" enabled="true">
+        <sourceOutputDir name="../IoC_XML/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../IoC_XML/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-demo-xml" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="IoC_XML" target="6" />
+      <module name="spring-demo-annotations" target="17" />
+      <module name="spring-demo-xml" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>

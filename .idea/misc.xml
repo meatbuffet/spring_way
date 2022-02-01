@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/IoC_XML/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo-annotations/pom.xml" />
       </list>
     </option>
   </component>
