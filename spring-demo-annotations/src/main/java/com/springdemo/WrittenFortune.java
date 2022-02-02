@@ -18,6 +18,7 @@ public class WrittenFortune implements FortuneService{
 
     @PostConstruct
     private void setupMyFortunes(){
+        System.out.println("In postConsctruct");
         fortunes[4]="SuperHell";
     }
 }
